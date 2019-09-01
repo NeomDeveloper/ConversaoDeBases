@@ -1,0 +1,18 @@
+{
+  "name": "nizam/convertors",
+  "authors": [
+    {
+      "name": "Nizam Omari",
+      "email": "nizam_omari@hotmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bases\\": "Bases/",
+      "Interfaces\\": "Interfaces/"
+    }
+  }
+}
