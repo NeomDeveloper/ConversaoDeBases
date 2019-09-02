@@ -24,7 +24,7 @@ abstract class Base implements \Interfaces\Base
         if ($this->validar($valor)) {
             $this->valor = $valor;
         } else {
-            throw new \Exception("Valor [" . $valor . "] não aceito como [" . $this::nome_base() . "]");
+            throw new \Exception("Valor '" . $valor . "' não aceito como '" . $this::nome_base() . "'");
         }
     }
 
